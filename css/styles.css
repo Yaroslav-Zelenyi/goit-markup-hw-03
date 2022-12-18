@@ -27,11 +27,11 @@ margin: 0;
 }
 
 .container {
-width: 1200px;  
-padding-left: 15px;
-padding-right: 15px;  
-margin-left: auto;
-margin-right: auto;
+ margin-left: auto;
+ margin-right: auto;
+ width: 1200px;  
+ padding-left: 15px;
+ padding-right: 15px;  
 }
 
 /* fon */
@@ -264,15 +264,15 @@ margin-right: auto;
  color: var(--title-text-color);
  font-weight: 500;
  font-size: 16px;
- line-height: 1.19;
+ line-height: 1.9;
 }
 .section-teams .position {
  text-align: center;
  padding-bottom: 30px;
 } 
 
-.section-features .text,
-.portfolio .link {
+/* .portfolio .link */
+.section-features .text {
  font-size: 14px;
  line-height: 1.7;    
 }
@@ -286,7 +286,7 @@ padding-bottom: 60px;
 
 .address-footer .link {
  display: block;
- padding-top: 20px;
+ margin-top: 20px;
  
  color:#FFFFFF;
  font-size: 14px;
@@ -295,8 +295,7 @@ padding-bottom: 60px;
 }
  .contacts-footer .link {
  display: block;
- padding-bottom: 0;
- padding-top: 9px;
+ margin-top: 9px;
 
  color: rgba(255, 255, 255, 0.6);
  font-size: 14px;
@@ -319,10 +318,10 @@ padding-bottom: 60px;
  margin: auto;
  }
  .navigation .item {
- margin-right: 50px;
+ margin-right: 8px;
  display: block;
- margin-top: 91px;
- margin-bottom: 34px;
+ padding-top: 91px;
+ padding-bottom: 50px;
  }
  .navigation .item:last-child {
  margin-right: 0;   
@@ -361,6 +360,7 @@ padding-bottom: 60px;
  width: calc((100% - 60px) / 3); 
  margin-right: 30px; 
  margin-bottom: 30px;  
+ background: #FFFFFF;
 }
 .portfolio-project .item:nth-child(3n) {
  margin-right: 0;
@@ -369,12 +369,45 @@ padding-bottom: 60px;
  margin-bottom: 0;
  }
 .portfolio-project .desc {
+ margin-top: 20px;
+ padding-left: 24px;
+
  color: var(--title-text-color); 
  font-weight: 700;
  font-size: 18px;
  line-height: 2;
  letter-spacing: 0.06em;  
+
+ border-right-width: 1px;
+ border-right-style: solid;
+ border-right-color: #ECECEC;
+ 
+ border-left-width: 1px;
+ border-left-style: solid;
+ border-left-color: #ECECEC;
 }
+.link-branch{
+ padding-left: 24px;
+ padding-bottom: 20px;
+ margin-top: 4px;
+
+ font-size: 16px;
+ line-height: 1.9;
+
+ border-right-width: 1px;
+ border-right-style: solid;
+ border-right-color: #ECECEC;
+
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: #ECECEC;
+
+ border-left-width: 1px;
+ border-left-style: solid;
+ border-left-color: #ECECEC; 
+}
+
+
 
 
    
