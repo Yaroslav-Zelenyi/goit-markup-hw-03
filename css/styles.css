@@ -7,11 +7,11 @@
 }
 
 body {
-/* background-color: var(--primary-big-color);  */
 color:var(--primary-text-color);
 font-family:Roboto, sans-serif;
 letter-spacing: 0.03em; 
 margin: 0;
+font-size: 14px;
 }
 
 /* Утиліти */
@@ -94,7 +94,6 @@ margin: 0;
 
  color: var(--title-text-color);
  font-weight: 500;
- font-size: 14px;
  line-height: 1.14; 
  letter-spacing: 0.02em;
  text-decoration: none; 
@@ -123,7 +122,6 @@ margin: 0;
 .contacts .link {
  color:var(--primary-text-color);
  font-weight: 500; 
- font-size: 14px;
  line-height: 1.14; 
  letter-spacing: 0.02em;   
  text-decoration: none;
@@ -155,7 +153,7 @@ margin: 0;
 /* button */
 
 .button.primary {
- color: var(--primary-big-color);
+ color: #FFFFFF;
  background-color: var(--accent-color);
  cursor: pointer;
  font-weight: 700;
@@ -166,10 +164,12 @@ margin: 0;
  padding: 10px 32px; 
  border-radius: 4px;
  border: 1px solid transparent;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button.primary:hover,
 .button.primary:focus {
- color: var(--title-text-color);
+ color: #FFFFFF;
+ background: #188CE8;
 }
 
 /* feature list */
@@ -221,7 +221,6 @@ margin: 0;
 
  color: var(--title-text-color);
  font-weight: 700;
- font-size: 14px;
  line-height: 1.14;
  text-transform: uppercase;
 }
@@ -279,7 +278,6 @@ margin: 0;
 
 /* .portfolio .link */
 .section-features .text {
- font-size: 14px;
  line-height: 1.7;    
 }
 
@@ -296,7 +294,6 @@ padding-bottom: 60px;
  display: block;
  
  color:#FFFFFF;
- font-size: 14px;
  line-height: 1.7;
  text-decoration: none;
 }
@@ -307,7 +304,6 @@ padding-bottom: 60px;
  display: block;
 
  color: rgba(255, 255, 255, 0.6);
- font-size: 14px;
  line-height: 1.7; 
  text-decoration: none; 
 }
@@ -356,6 +352,7 @@ padding-bottom: 60px;
 .section .portfolio-nav:focus {
  color: #FFFFFF;
  background-color: var(--accent-color);
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* portfolio-project */
