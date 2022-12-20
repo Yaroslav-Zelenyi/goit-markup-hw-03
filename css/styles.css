@@ -283,6 +283,9 @@ font-size: 14px;
 
 /* contacts-footer, address list */
 
+.address-section {
+ font-style: inherit;
+}
 .fon-footer {
 padding-top: 60px;
 padding-bottom: 60px;
@@ -411,7 +414,3 @@ padding-bottom: 60px;
 }
 
 
-
-
-
-   
